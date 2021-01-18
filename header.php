@@ -9,7 +9,6 @@
 
 
 	<link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -17,10 +16,10 @@
 
 	<header>
 		<?php 
-			wp_nav_menu(array(
-				'theme_location' => 'header',
-				)
-			);
+			// wp_nav_menu(array(
+			// 	'theme_location' => 'header',
+			// 	)
+			// );
 		?>
 	</header>
 
