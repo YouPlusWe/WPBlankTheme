@@ -1,3 +1,5 @@
+@import '_breakpoints.scss';
+
 .flex {
 	display: flex;
     //width: 100%;
@@ -452,6 +454,10 @@
 
 .flex-text-center {
     justify-content: center;
+}
+
+.flex-text-right {
+    justify-content: flex-end;
 }
 
 .flex-bottom-tablet {
